@@ -6,7 +6,7 @@ Digital implementation of PWM Generator using Verilog HDL
 
 ---
 
-## Design Mechanism
+## Design Blocks
 > In this design, PWM sigal is being generated using the followin submodules:
 > 1. Timer
 > 2. Up Counter
