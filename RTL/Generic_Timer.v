@@ -4,16 +4,16 @@
                  the tick time depends on the Final Value which is fed into the module. 
 */
 
-module Timer #(parameter BITS=4)(
+module Timer #(parameter TIMER_BITS=4)(
     input wire clk,
     input wire reset,
     input wire enable,
-    input wire [BITS-1:0] Final_Value,
+    input wire [TIMER_BITS-1:0] Final_Value,
     output reg tick
 );
     
     /*Define a register with the specified number of bit width*/
-    reg [BITS-1:0] Q_reg,Q_next;
+    reg [TIMER_BITS-1:0] Q_reg,Q_next;
     
     /*Sequential always block*/
     always @(posedge clk, negedge reset) begin
