@@ -1,0 +1,23 @@
+{D:/Digital Circuit Design Using Verilog Course/Projects/PWM Generator/Testing/Testbench/PWM_tb.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Circuit Design Using Verilog Course/Projects/PWM Generator/Testing/Testbench/PWM_tb.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module PWM_tb
+
+Top level modules:
+	PWM_tb
+
+} {} {}} {D:/Digital Circuit Design Using Verilog Course/Projects/PWM Generator/RTL/PWM.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Circuit Design Using Verilog Course/Projects/PWM Generator/RTL/PWM.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module Timer
+-- Compiling module PWM
+
+Top level modules:
+	PWM
+
+} {} {}} {D:/Digital Circuit Design Using Verilog Course/Projects/PWM Generator/RTL/Generic_Timer.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Circuit Design Using Verilog Course/Projects/PWM Generator/RTL/Generic_Timer.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module Timer
+
+Top level modules:
+	Timer
+
+} {} {}}

@@ -3,7 +3,7 @@
     Description: This is the source Verilog code of the top module that describes the PWM Generator.
 */
 `include "Generic_Timer.v"
-module PWM #(parameter BITS = 4,TIMER_BITS = 4)(
+module PWM #(parameter BITS = 8,TIMER_BITS = 8)(
     input wire clk,
     input wire reset,
     input wire [TIMER_BITS-1:0]Final_Value,
