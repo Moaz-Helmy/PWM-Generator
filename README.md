@@ -1,5 +1,5 @@
 # PWM-Generator
-###Digital implementation of PWM Generator using Verilog HDL.
+### Digital implementation of PWM Generator using Verilog HDL.
 
 Implemented a simple circuit that generates a pulse-width modulated signal using three basic blocks, which are:
 - A Timer.
