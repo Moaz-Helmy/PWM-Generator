@@ -1,5 +1,12 @@
 # PWM-Generator
-Digital implementation of PWM Generator using Verilog HDL
+Digital implementation of PWM Generator using Verilog HDL.
+Implemented a simple circuit that generates a pulse-width modulated signal using three basic blocks, which are:
+- A Timer
+- An Up-Counter
+- A Comparator
+The Timer takes a specific final value which upon reaching up to, the timer ticks one tick. This tick is connected to the enable of the Up-counter, thus triggering it to count up only once, then it waits for the next tick. 
+The Up-counter is considered the clock generator of the PWM signal. Because when the counter overflows, a full PWM signal is generated.
+As for the comparator, its role is so simple. It compares the counter value with a specific input value that represents the duty cycle. As long as, the counter value is less than the duty, the PWM signal is high. Otherwise, it's low.
 
 ## Schematic
 ![Circuit Diagram](https://github.com/Moaz-Helmy/PWM-Generator-/blob/main/PWM.jpg)
